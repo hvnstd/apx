@@ -1,0 +1,11 @@
+name = "ai-gateway-worker"
+main = "worker.ts"
+compatibility_date = "2024-11-01"
+
+# 纯代理无需 KV/D1/R2。如需绑定, 在此追加, 例如:
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# 若需自定义域名:
+# routes = [ "gateway.your-domain.com/*" ]
